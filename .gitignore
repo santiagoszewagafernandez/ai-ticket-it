@@ -1,0 +1,40 @@
+**/node_modules/
+**/.env
+**/.env.local
+**/.expo/
+**/dist/
+**/*.log
+
+# Configuración local y credenciales
+**/.env.*
+!**/.env.example
+**/.claude/
+**/.codex/
+**/.DS_Store
+**/Thumbs.db
+**/*.pem
+**/*.key
+**/*.p12
+**/*.pfx
+
+# Grabaciones y archivos generados: se conservan solo en esta computadora
+/videos que van/
+/output/
+/tmp/
+**/*.mp4
+**/*.mov
+**/*.mkv
+
+# Cachés y salidas de herramientas
+**/__pycache__/
+**/*.pyc
+**/*.tsbuildinfo
+**/coverage/
+
+# Evidencias y notas de sesión: contienen datos del entorno local
+/docs/evidencias/
+/docs/AVANCE.md
+/docs/IMPLEMENTACION.md
+/docs/DEMO.md
+/docs/DISCURSO-DEMO.md
+/docs/PREPARAR-GRABACION.md
